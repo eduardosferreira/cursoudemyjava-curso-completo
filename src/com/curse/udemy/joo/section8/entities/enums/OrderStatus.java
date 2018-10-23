@@ -1,12 +1,12 @@
 package com.curse.udemy.joo.section8.entities.enums;
 
-public enum WorkerLevel {
+public enum OrderStatus {
+	
 
-
-	JUNIOR(1L,"Iniciante[Junior]"),
-	MID_LEVEL(2L,"Pleno"),
-	SENIOR(3L,"Senior");
-
+	PENDING_PAYMENT(1L,"Pagamento Pendente"),
+	PROCESSING(2L,"Processando"),
+	SHIPPED(3L,"Pago"),
+	DELIVERED(4L,"Entregue");
 	
 	private Long    id;
 	private String  name;
@@ -19,19 +19,19 @@ public enum WorkerLevel {
 		return name;
 	}
 	
-	private WorkerLevel(Long id, String name) {
+	private OrderStatus(Long id, String name) {
 		this.id = id;
 		this.name = name;
 	}
 	
 	
-	public static WorkerLevel toEnum(Long id) {
+	public static OrderStatus toEnum(Long id) {
 		
 		if (id == null) {
 			return null;
 		}
 		
-		for (WorkerLevel x : WorkerLevel.values()) {
+		for (OrderStatus x : OrderStatus.values()) {
 			if (id.equals(x.getId())) {
 				return x;
 			}

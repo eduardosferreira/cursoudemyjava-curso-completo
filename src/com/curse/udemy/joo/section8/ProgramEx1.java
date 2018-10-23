@@ -11,9 +11,9 @@ import com.curse.udemy.joo.section8.entities.HourContract;
 import com.curse.udemy.joo.section8.entities.Worker;
 import com.curse.udemy.joo.section8.entities.enums.WorkerLevel;
 
-public class Program {
+public class ProgramEx1 {
 	
-	private Program() {
+	private ProgramEx1() {
 		Locale.setDefault(Locale.US);
 		System.out.println("Ler os dados de um trabalhador com N contratos (N fornecido pelo usuário). Depois, solicitar\r\n" + 
 				"do usuário um mês e mostrar qual foi o salário do funcionário nesse mês");
@@ -21,7 +21,7 @@ public class Program {
 	}
 	
 	public static void main(String[] args) {
-		new Program();
+		new ProgramEx1();
 		SimpleDateFormat sdf;
 		Scanner in;
 		
