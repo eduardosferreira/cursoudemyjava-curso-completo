@@ -1,8 +1,6 @@
 package com.curse.udemy.joo.section8;
 
 import java.text.ParseException;
-import java.text.SimpleDateFormat;
-import java.util.Date;
 import java.util.Locale;
 
 import com.curse.udemy.joo.section8.entities.Comment;
