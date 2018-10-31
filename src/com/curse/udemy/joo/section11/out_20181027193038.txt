@@ -1,0 +1,8 @@
+1.  NppExport v0.2.8 (32-bit x86 only)
+2.  Converter 4.2.1
+3.  Mime Tool 2.1 
+4.  DSpellCheck 1.3.5
+1.  NppExport v0.2.8 (32-bit x86 only)
+2.  Converter 4.2.1
+3.  Mime Tool 2.1 
+4.  DSpellCheck 1.3.5
